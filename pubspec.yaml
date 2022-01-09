@@ -1,10 +1,10 @@
-name: editor
+name: entity_editor
 description: The way to edit & update entity.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 # publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-repository: 
+repository: https://github.com/liou-jia-hao/flutter-entity-editor
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
@@ -15,7 +15,7 @@ repository:
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: ">=2.15.1 <3.0.0"

@@ -17,7 +17,7 @@ abstract class Editable<T> {
   T clone();
 }
 
-abstract class Editor<T extends Editable> {
+abstract class Editor<T extends Editable<T>> {
   late T _original;
   late final T edit;
   late final FutureOr<Map> Function(Map) _doUpdate;

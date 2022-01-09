@@ -1,4 +1,4 @@
-# editor
+# entity_editor
 
 <a href="https://pub.dev/packages/editor"><img src="https://img.shields.io/pub/v/editor.svg" alt="Pub"></a>
 <a href="https://github.com/hacktons/convex_bottom_bar"><img src="https://img.shields.io/badge/platform-flutter-ff69b4.svg" alt="github"></a>
