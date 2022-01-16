@@ -1,3 +1,6 @@
+## [0.1.2] 
+* Add Selectalbe mixin.
+
 ## [0.0.2] 
 * Fix a generic type problem.
   

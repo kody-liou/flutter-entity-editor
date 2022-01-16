@@ -17,6 +17,15 @@ abstract class Editable<T> {
   T clone();
 }
 
+mixin Selectalbe<T> on Editable<T> {
+  bool _selected = false;
+  bool get selected => _selected;
+  set selected(bool value) {
+    _selected = value;
+    notifyListeners();
+  }
+}
+
 abstract class Editor<T extends Editable<T>> {
   late T _original;
   late final T edit;
@@ -33,4 +42,9 @@ abstract class Editor<T extends Editable<T>> {
     Map result = await _doUpdate(difference);
     _original.fromMap(result);
   }
+}
+
+abstract class ItemsModel<T extends Editable> with ChangeNotifier {
+  /// The key is item's id.
+  Map<String, T> itemsMap = {};
 }
