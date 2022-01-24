@@ -1,3 +1,6 @@
+## [1.1.2] 
+* Merge Selectalbe mixin to Editable class.
+
 ## [0.1.2] 
 * Add Selectalbe mixin.
 

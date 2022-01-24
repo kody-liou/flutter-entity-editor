@@ -13,7 +13,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yml
 dependencies:
-  editor: ^0.0.1
+  entity_editor: ^1.1.2
 ```
 
 ## Usage
